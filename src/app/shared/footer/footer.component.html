@@ -1,1 +1,88 @@
-<!-- <p>footer works!</p> -->
+<footer class="w-full">
+    
+    <div class="w-full flex">
+        <div class="w-1/4 flex-row mt-4">
+            <h1 class="text-2xl sm:pl-0 pl-5 md:text-lg sm:text-sm md:font-semibold">¿Dónde estamos?</h1>
+            <div class="text-xl md:text-lg sm:text-sm mt-2 pl-5">
+                <h1 class="font-semibold sm:text-sm md:text-lg">Asunción:</h1>
+                Avda. España 5421 <br>
+                Escribinos al WhatsApp <br>
+                <button class="text-black font-semibold sm:text-base mt-4 text-2xl md:text-lg hover:font-bold">+595 123 123 123</button>
+            </div>
+        </div>
+        <div class="w-1/4 flex-row mt-4">
+                <h1 class="text-2xl md:text-lg sm:text-sm md:font-semibold">Atención al cliente</h1>
+                <div *ngFor="let item of Atc" class="sm:text-sm text-xl md:text-lg mt-2">
+                    <button class="text-black sm:text-sm hover:font-semibold">{{item.nombre}}</button>
+                </div>
+        </div>
+        <div class="w-1/4 flex-row mt-4">
+            <h1 class="text-2xl md:text-lg sm:text-sm md:font-semibold">Sobre Nosotros</h1>
+            <div *ngFor="let item of Empresa" class="text-xl sm:text-sm md:text-lg mt-2">
+                <button class="text-black sm:text-sm hover:font-semibold">{{item.nombre}}</button>
+            </div>
+        </div>
+        <div class="w-1/4 flex-row mt-4">
+            <h1 class="text-2xl md:text-lg sm:text-sm md:font-semibold">Sponsort</h1>
+            <div *ngFor="let item of Marcas" class="text-xl sm:text-sm md:text-lg mt-2">
+                <button class="text-black sm:text-sm hover:font-semibold">{{item.nombre}}</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Apartados -->
+    <div class="w-full flex-col mt-5 hidden xl:block">
+        <div class="w-full pl-5 flex mt-2">
+            <H1 class="font-bold"><span>Electrodomésticos y hogar: </span></H1>
+            <div *ngFor="let item of Electrodomesticos" class="ml-2 md:ml-0 flex-row">
+                <button class="hover:font-semibold ">{{item.nombre}} |</button>
+            </div>
+        </div>
+        <div class="w-full flex mt-2 pl-5">
+            <H1 class="font-bold"><span>Articulos para Oficina: </span></H1>
+            <div *ngFor="let item of Oficina" class="ml-2 flex-row">
+                <button class="hover:font-semibold">{{item.nombre}} |</button>
+            </div>
+        </div>
+        <div class="w-full flex mt-2 pl-5">
+            <H1 class="font-bold"><span>Automóvil y Accesorios: </span></H1>
+            <div *ngFor="let item of Automovil" class="ml-2 flex-row">
+                <button class="hover:font-semibold">{{item.nombre}} |</button>
+            </div>
+        </div>
+        <div class="w-full flex mt-2 pl-5">
+            <H1 class="font-bold"><span>Perfumes: </span></H1>
+            <div *ngFor="let item of Perfumes" class="ml-2 flex-row">
+                <button class="hover:font-semibold">{{item.nombre}} |</button>
+            </div>
+        </div>
+
+        <div class="w-full flex mt-2 pl-5">
+            <H1 class="font-bold"><span>Accesorios para PC: </span></H1>
+            <div *ngFor="let item of Accesorios" class="ml-2 flex-row">
+                <button class="hover:font-semibold md:text-base">{{item.nombre}} |</button>
+            </div>
+        </div>
+        
+        <hr class="mt-4">
+
+
+    </div>
+    <!-- Derechos -->
+    <div class="w-full flex">
+        <div class="w-1/2 flex-row">
+            <div class="w-full ml-5 mt-3">2024 Sam. Todos los derechos reservados</div>
+            <div class="w-full ml-5 mt-5">
+                Fotos con fines ilustrativos. 
+                Las especificaciones técnicas y <br> 
+                descripciones están sujetas a cambios sin previo aviso.
+            </div>
+        </div>
+        <div class="w-1/2 flex-row ml-5 mt-3">
+            <div class="w-full">
+                Métodos de pago
+            </div>
+        </div>
+    </div>
+  
+</footer>

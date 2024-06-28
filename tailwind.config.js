@@ -2,6 +2,9 @@
 module.exports = {
   content: ["./src/**/*.{html,ts}"],
   theme: {
+    screens: {
+      'sm': '680px'
+    },
     extend: {
       colors:{
         //Classic
@@ -11,6 +14,7 @@ module.exports = {
         classicGray:"#D3D3D3",
         //Paleta Naturaleza
         naturalGreen:"#6B8E23",
+        naturalGreenHover:"#88BA30",
         naturalBeige:"#F5F5DC",
         naturalMarron:"#8B4513",
         creamWhite:"#FFFDD0",
