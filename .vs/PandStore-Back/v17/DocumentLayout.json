@@ -1,0 +1,140 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sam\\source\\repos\\PandStore-Back\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7A88CEDE-7594-41D5-93AD-3DF21AEDA461}|PandStore-Back\\PandStore-Back.csproj|c:\\users\\sam\\source\\repos\\pandstore-back\\pandstore-back\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A88CEDE-7594-41D5-93AD-3DF21AEDA461}|PandStore-Back\\PandStore-Back.csproj|solutionrelative:pandstore-back\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A88CEDE-7594-41D5-93AD-3DF21AEDA461}|PandStore-Back\\PandStore-Back.csproj|c:\\users\\sam\\source\\repos\\pandstore-back\\pandstore-back\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7A88CEDE-7594-41D5-93AD-3DF21AEDA461}|PandStore-Back\\PandStore-Back.csproj|solutionrelative:pandstore-back\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A88CEDE-7594-41D5-93AD-3DF21AEDA461}|PandStore-Back\\PandStore-Back.csproj|c:\\users\\sam\\source\\repos\\pandstore-back\\pandstore-back\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A88CEDE-7594-41D5-93AD-3DF21AEDA461}|PandStore-Back\\PandStore-Back.csproj|solutionrelative:pandstore-back\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A88CEDE-7594-41D5-93AD-3DF21AEDA461}|PandStore-Back\\PandStore-Back.csproj|c:\\users\\sam\\source\\repos\\pandstore-back\\pandstore-back\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A88CEDE-7594-41D5-93AD-3DF21AEDA461}|PandStore-Back\\PandStore-Back.csproj|solutionrelative:pandstore-back\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A88CEDE-7594-41D5-93AD-3DF21AEDA461}|PandStore-Back\\PandStore-Back.csproj|c:\\users\\sam\\source\\repos\\pandstore-back\\pandstore-back\\service\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A88CEDE-7594-41D5-93AD-3DF21AEDA461}|PandStore-Back\\PandStore-Back.csproj|solutionrelative:pandstore-back\\service\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A88CEDE-7594-41D5-93AD-3DF21AEDA461}|PandStore-Back\\PandStore-Back.csproj|c:\\users\\sam\\source\\repos\\pandstore-back\\pandstore-back\\model\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A88CEDE-7594-41D5-93AD-3DF21AEDA461}|PandStore-Back\\PandStore-Back.csproj|solutionrelative:pandstore-back\\model\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A88CEDE-7594-41D5-93AD-3DF21AEDA461}|PandStore-Back\\PandStore-Back.csproj|c:\\users\\sam\\source\\repos\\pandstore-back\\pandstore-back\\model\\jwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A88CEDE-7594-41D5-93AD-3DF21AEDA461}|PandStore-Back\\PandStore-Back.csproj|solutionrelative:pandstore-back\\model\\jwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Jwt.cs",
+              "DocumentMoniker": "C:\\Users\\Sam\\source\\repos\\PandStore-Back\\PandStore-Back\\Model\\Jwt.cs",
+              "RelativeDocumentMoniker": "PandStore-Back\\Model\\Jwt.cs",
+              "ToolTip": "C:\\Users\\Sam\\source\\repos\\PandStore-Back\\PandStore-Back\\Model\\Jwt.cs",
+              "RelativeToolTip": "PandStore-Back\\Model\\Jwt.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T19:41:47.003Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\Sam\\source\\repos\\PandStore-Back\\PandStore-Back\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "PandStore-Back\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\Sam\\source\\repos\\PandStore-Back\\PandStore-Back\\WeatherForecast.cs",
+              "RelativeToolTip": "PandStore-Back\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T20:48:51.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Sam\\source\\repos\\PandStore-Back\\PandStore-Back\\appsettings.json",
+              "RelativeDocumentMoniker": "PandStore-Back\\appsettings.json",
+              "ToolTip": "C:\\Users\\Sam\\source\\repos\\PandStore-Back\\PandStore-Back\\appsettings.json",
+              "RelativeToolTip": "PandStore-Back\\appsettings.json",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-01T20:48:45.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Sam\\source\\repos\\PandStore-Back\\PandStore-Back\\Program.cs",
+              "RelativeDocumentMoniker": "PandStore-Back\\Program.cs",
+              "ToolTip": "C:\\Users\\Sam\\source\\repos\\PandStore-Back\\PandStore-Back\\Program.cs",
+              "RelativeToolTip": "PandStore-Back\\Program.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T20:48:40.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "data.cs",
+              "DocumentMoniker": "C:\\Users\\Sam\\source\\repos\\PandStore-Back\\PandStore-Back\\Model\\data.cs",
+              "RelativeDocumentMoniker": "PandStore-Back\\Model\\data.cs",
+              "ToolTip": "C:\\Users\\Sam\\source\\repos\\PandStore-Back\\PandStore-Back\\Model\\data.cs",
+              "RelativeToolTip": "PandStore-Back\\Model\\data.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T20:07:26.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Sam\\source\\repos\\PandStore-Back\\PandStore-Back\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "PandStore-Back\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\Sam\\source\\repos\\PandStore-Back\\PandStore-Back\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "PandStore-Back\\Controllers\\UsuarioController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T17:10:30.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\Sam\\source\\repos\\PandStore-Back\\PandStore-Back\\Service\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "PandStore-Back\\Service\\UsuarioService.cs",
+              "ToolTip": "C:\\Users\\Sam\\source\\repos\\PandStore-Back\\PandStore-Back\\Service\\UsuarioService.cs",
+              "RelativeToolTip": "PandStore-Back\\Service\\UsuarioService.cs",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAAAHoAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T15:25:55.14Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
