@@ -1,34 +1,34 @@
-<nav class="w-full xl:block md:block hidden">
+<nav class="w-full tb:block xl:block md:block hidden">
 
   <div class="bg-classicblack flex flex-row w-full">
-    <div class="md:w-1/4 xl:w-1/4 h-20 flex">
+    <div class="tb:w-1/4 md:w-1/4 xl:w-1/4 h-20 flex">
       <button
         class="md:w-1/2 flex w-4/5 pt-2 text-classicGray my-auto mx-auto size-10 font-bold font-sans hover:text-white"
         (mouseover)="onMouseOverLogo()" (mouseout)="onMouseOutLogo()">PANDSTORE<img src={{logoSrc}}
           class="h-10 w-10 mx-2 my-auto" style="transition: opacity 0.3s ease-in-out;"></button>
     </div>
-    <div class="flex xl:w-1/2 md:w-2/5">
-      <input class="h-1/2 md:w-8/12 xl:w-10/12 my-auto mx-auto border-opacity-50 rounded"
+    <div class="flex tb:w-2/4 xl:w-1/2 md:w-2/5">
+      <input class="h-1/2 tb:w-9/12 md:w-8/12 xl:w-10/12 my-auto mx-auto border-opacity-50 rounded"
         placeholder="Buscar en toda la tienda..." type="text" />
       <button
         class="px-4 h-10 my-auto font-semibold mr-8 bg-naturalGreen rounded text-classicwhite hover:bg-naturalGreenHover">Buscar</button>
     </div>
-    <div class="flex xl:w-1/5 md:w-1/5">
-      <button>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-          class="size-10 mx-auto my-auto fill-classicGray hover:fill-pastelRose">
-          <path stroke-linecap="round" stroke-linejoin="round"
-            d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
-        </svg></button>
-
-      <button>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-          class="size-10 mx-auto my-auto fill-classicGray hover:fill-white">
-          <path stroke-linecap="round" stroke-linejoin="round"
-            d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
-        </svg></button>
-
-      <div name="User" class="flex">
+    <div class="flex xl:w-1/4 tb:w-1/4 md:w-1/4">
+      
+      <div name="User" class="flex mx-auto">
+        <button class="lg:block xl:block md:block tb:hidden sm:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="size-10 mx-auto my-auto fill-classicGray hover:fill-pastelRose">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+          </svg></button>
+  
+        <button>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="size-10 mx-auto my-auto fill-classicGray hover:fill-white">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+          </svg></button>
         <button>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
             class="size-10 mx-auto my-auto fill-classicGray hover:fill-white">
@@ -36,10 +36,10 @@
               d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
           </svg></button>
         <div class="flex-row my-auto xl:ml-1">
-          <div><button>
+          <div><button class="mx-auto">
               <h1 class="text-classicGray font-bold hover:text-white">Registrarse</h1>
             </button></div>
-          <div><button>
+          <div><button class="mx-auto">
               <h1 class="text-classicGray font-bold hover:text-white">Iniciar Sesion</h1>
             </button></div>
         </div>
@@ -57,7 +57,7 @@
           class="size-6 my-auto fill-classicGray hover:fill-white">
           <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
         </svg>
-        <h1 class="my-auto">Categorias</h1>
+        <h1 class="my-auto tb:text-sm md:text-base xl:text-base lg:text-base">Categorias</h1>
       </button>
     </div>
     <hr class="w-0.5 h-full bg-classicblack border-none">
@@ -69,7 +69,7 @@
           <path stroke-linecap="round" stroke-linejoin="round"
             d="M15.666 3.888A2.25 2.25 0 0 0 13.5 2.25h-3c-1.03 0-1.9.693-2.166 1.638m7.332 0c.055.194.084.4.084.612v0a.75.75 0 0 1-.75.75H9a.75.75 0 0 1-.75-.75v0c0-.212.03-.418.084-.612m7.332 0c.646.049 1.288.11 1.927.184 1.1.128 1.907 1.077 1.907 2.185V19.5a2.25 2.25 0 0 1-2.25 2.25H6.75A2.25 2.25 0 0 1 4.5 19.5V6.257c0-1.108.806-2.057 1.907-2.185a48.208 48.208 0 0 1 1.927-.184" />
         </svg>
-        <h1 class="my-auto">Blog</h1>
+        <h1 class="my-auto tb:text-sm md:text-base xl:text-base lg:text-base">Blog</h1>
       </button>
     </div>
 
@@ -82,7 +82,7 @@
           <path stroke-linecap="round" stroke-linejoin="round"
             d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 0 0 2.25-2.25V6.75A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25v10.5A2.25 2.25 0 0 0 4.5 19.5Z" />
         </svg>
-        <h1 class="my-auto">Comercios adheridos</h1>
+        <h1 class="my-auto tb:text-sm md:text-base xl:text-base lg:text-base">Comercios adheridos</h1>
       </button>
     </div>
 
@@ -95,7 +95,7 @@
           <path stroke-linecap="round" stroke-linejoin="round"
             d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z" />
         </svg>
-        <h1 class="my-auto">Lista de deseos</h1>
+        <h1 class="my-auto tb:text-sm md:text-base xl:text-base lg:text-base">Lista de deseos</h1>
       </button>
 
     </div>
@@ -109,7 +109,7 @@
           <path stroke-linecap="round" stroke-linejoin="round"
             d="M8.25 18.75a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 0 1-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 0 0-3.213-9.193 2.056 2.056 0 0 0-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 0 0-10.026 0 1.106 1.106 0 0 0-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12" />
         </svg>
-        <h1 class="my-auto">Envios</h1>
+        <h1 class="my-auto tb:text-sm md:text-base xl:text-base lg:text-base">Envios</h1>
       </button>
     </div>
 
@@ -119,36 +119,37 @@
     <hr class="bg-black w-full h-0.5">
   </div>
 </nav>
-
-<div *ngIf="categoria" @fadeIn class="w-1/5 h-full bg-pastelGreen border-solid border-black">
+<div class="block lg:block md:block tb:block sm:hidden">
+<div *ngIf="categoria" @fadeIn class="w-1/5 bg-naturalGreenHover border-solid border-black absolute">
   <table class="w-full flex-row">
     <tr class="border border-black "><button
-        class="text-start pl-4 w-full h-10 size-8 font-semibold hover:bg-mintGreen">Electronica </button></tr>
+        class="text-start pl-4 w-full h-10 size-8 font-semibold hover:bg-naturalGreen">Electronica </button></tr>
     <tr class="border border-black "><button
-        class="text-start pl-4 w-full h-10 size-8 font-semibold hover:bg-mintGreen">Informatica </button></tr>
+        class="text-start pl-4 w-full h-10 size-8 font-semibold hover:bg-naturalGreen">Informatica </button></tr>
     <tr class="border border-black "><button
-        class="text-start pl-4 w-full h-10 size-8 font-semibold hover:bg-mintGreen">Muebles </button></tr>
+        class="text-start pl-4 w-full h-10 size-8 font-semibold hover:bg-naturalGreen">Muebles </button></tr>
     <tr class="border border-black "><button
-        class="text-start pl-4 w-full h-10 size-8 font-semibold hover:bg-mintGreen">Electrodomesticos</button></tr>
+        class="text-start pl-4 w-full h-10 size-8 font-semibold hover:bg-naturalGreen">Electrodomesticos</button></tr>
     <tr class="border border-black "><button
-        class="text-start pl-4 w-full h-10 size-8 font-semibold hover:bg-mintGreen">Accesorios </button></tr>
+        class="text-start pl-4 w-full h-10 size-8 font-semibold hover:bg-naturalGreen">Accesorios </button></tr>
   </table>
 </div>
-
+</div>
 <!-- Small -->
-<nav class="sm:block md:hidden">
+<nav class="sm:block tb:hidden md:hidden">
   <div class="bg-classicblack flex flex-row w-full">
-    <div class="w-1/2 items-start my-auto h-20 flex">
+    <div class="w-1/2 tb:1/5 items-start my-auto h-20 flex">
       <!-- <button class=" flex pt-2 text-classicGray my-auto ml-10 size-10 font-bold font-sans hover:text-white"(mouseover)="onMouseOverLogo()" (mouseout)="onMouseOutLogo()">PANDSTORE<img src={{logoSrc}}
           class="h-10 w-10 mx-2 my-auto" style="transition: opacity 0.3s ease-in-out;"></button> -->
+        <div class="my-auto">
           <button
-        class="flex w-full pt-2 text-classicGray my-auto mx-auto size-10 font-bold font-sans hover:text-white"
+        class="flex pt-2 text-classicGray my-auto mx-auto size-10 font-bold font-sans hover:text-white"
         (mouseover)="onMouseOverLogo()" (mouseout)="onMouseOutLogo()">PANDSTORE<img src={{logoSrc}}
           class="h-10 w-10 mx-2 my-auto" style="transition: opacity 0.3s ease-in-out;"></button>
+        </div>
     </div>
 
     <div class="w-1/2 my-auto flex">
-
       <button class="ml-auto" (click)="onModal()" *ngIf="!IsModal">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
           class="size-10 mx-auto my-auto fill-classicGray">
@@ -174,7 +175,7 @@
 
 
   <div *ngIf="IsModal" class="flex" @fadeIn>
-    <div class="bg-forestGreen w-full h-full flex-col">
+    <div class="bg-naturalGreen absolute w-full flex-col">
       <div class="flex h-10 w-full mt-5">
         <input class="h-10 w-3/4 my-auto mx-auto border-opacity-50 rounded" placeholder="Buscar en toda la tienda..."
           type="text" />
@@ -187,7 +188,7 @@
         </button>
       </div>
 
-      <div name="User" class="flex w-full mt-5">
+      <div name="User" class="flex w-full pt-2 pb-2 mt-1 hover:bg-naturalGreenHover">
         <button class="flex ml-4">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
             class="size-10 my-auto fill-classicGray">
@@ -196,7 +197,7 @@
           </svg><h1 class="mt-2">Iniciar Sesion</h1></button>
       </div>
 
-      <div name="deseos" class="flex w-full mt-5">
+      <div name="deseos" class="flex w-full pt-2 pb-2 hover:bg-naturalGreenHover">
           <button class="flex ml-4">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
               class="size-10 my-auto fill-classicGray">
@@ -205,7 +206,7 @@
             </svg><h1 class="mt-2">Lista de deseos</h1></button>
       </div>
      
-      <div name="carrito" class="flex w-full mt-5">
+      <div name="carrito" class="flex w-full pt-2 pb-2 hover:bg-naturalGreenHover">
           <button class="flex ml-4">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
               class="size-10 my-auto fill-classicGray">
