@@ -1,0 +1,15 @@
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 12rem; /* Ajusta la altura a la mitad del carrusel grande */
+  }
+  
+  .carousel-inner {
+    display: flex;
+    height: 100%;
+  }
+  
+  .carousel-item {
+    min-width: 100%;
+    height: 100%;
+  }

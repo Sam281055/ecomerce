@@ -120,7 +120,7 @@
   </div>
 </nav>
 <div class="block lg:block md:block tb:block sm:hidden">
-<div *ngIf="categoria" @fadeIn class="w-1/5 bg-naturalGreenHover border-solid border-black absolute">
+<div *ngIf="categoria" @fadeIn class="w-1/5 bg-naturalGreenHover border-solid border-black absolute z-50">
   <table class="w-full flex-row">
     <tr class="border border-black "><button
         class="text-start pl-4 w-full h-10 size-8 font-semibold hover:bg-naturalGreen">Electronica </button></tr>
@@ -174,8 +174,8 @@
 
 
 
-  <div *ngIf="IsModal" class="flex" @fadeIn>
-    <div class="bg-naturalGreen absolute w-full flex-col">
+  <div *ngIf="IsModal" class="flex " @fadeIn>
+    <div class="bg-naturalGreen absolute z-20 w-full flex-col">
       <div class="flex h-10 w-full mt-5">
         <input class="h-10 w-3/4 my-auto mx-auto border-opacity-50 rounded" placeholder="Buscar en toda la tienda..."
           type="text" />

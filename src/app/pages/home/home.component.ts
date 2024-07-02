@@ -1,35 +1,30 @@
 import { Component, OnInit } from '@angular/core';
-import { ClientService } from '../../Service/client.service';
-import { Empleado } from '../../interface/empleado';
 import { CommonModule } from '@angular/common';
+import { CarouselComponent } from '../../shared/carousel/carousel.component';
+import { SeccionComponent } from '../../shared/seccion/seccion.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, CarouselComponent, SeccionComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
 export class HomeComponent implements OnInit{
 
-  Lista:Empleado[]=[];
-
+  slidePrincipal = [
+      'https://via.placeholder.com/800x400?text=Slide+1',
+      'https://via.placeholder.com/800x400?text=Slide+2',
+      'https://via.placeholder.com/800x400?text=Slide+3'
+    ];
+    
   constructor(
-    private cliente:ClientService
   ) {
   }
 
   ngOnInit(){
     
     // this.Listar();
-  }
-
-  Listar(){
-    return this.cliente.Listar().subscribe((a:Empleado[])=>{this.Lista=a});
-  }
-  Delete(id:number){
-    this.cliente.Eliminar(id).subscribe();
-    return this.Listar();
   }
 
 }

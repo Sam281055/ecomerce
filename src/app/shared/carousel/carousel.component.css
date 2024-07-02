@@ -1,0 +1,11 @@
+.carousel {
+    position: relative;
+  }
+  
+  .carousel-inner {
+    display: flex;
+  }
+  
+  .carousel-item {
+    min-width: 100%;
+  }

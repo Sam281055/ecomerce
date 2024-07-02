@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { opciones } from '../../interface/opcion.interface';
 
 @Component({
   selector: 'app-footer',
@@ -57,7 +58,7 @@ export class FooterComponent {
   ];
   Atc:opciones[]=[
     { nombre: "Cómo comprar",            link:""},
-    { nombre:"Plazos de Garantia",link:""},
+    { nombre:"Plazos de Garantia",       link:""},
     { nombre: "Términos y condiciones",  link:""},
     { nombre: "Politicas de Privacidad", link:""},
     { nombre: "Preguntas frecuentes",    link:""}
@@ -74,8 +75,4 @@ export class FooterComponent {
     { nombre: "Samsung",                 link:""},
     { nombre: "Sony",                    link:""},
   ];
-}
-export interface opciones {
-  nombre: string,
-  link: string
 }

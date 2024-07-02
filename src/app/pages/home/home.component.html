@@ -1,35 +1,25 @@
-    <!-- <div class="w-full bg-yellow-400">
+<div class="w-full bg-black">
+    <div class="w-11/12 mx-auto pt-4 xl:block lg:block md:block tb:block sm:hidden">
+        <app-carousel [slides]="slidePrincipal"></app-carousel>
+    </div>
+    <div class="w-11/12 h-16 bg-naturalGreen mt-2 mx-auto xl:block lg:block md:block tb:block sm:hidden">
+        <div class="w-1/4">
 
-        <div class="w-11/12 h-full flex mx-auto pt-5">
-                <td class="mx-10 font-sans font-bold size-10 w-40">Id</td>
-                <td class="mx-10 font-sans font-bold size-10 w-40">Nombre</td>
-                <td class="mx-10 font-sans font-bold size-10 w-40">Correo</td>
-                <td class="mx-10 font-sans font-bold size-10 w-40">Sueldo</td>
-                <td class="mx-10 font-sans font-bold size-10 w-40">Fecha de Contrato</td>
         </div>
-        
-    <div *ngIf="Lista">
-        <div class="w-full bg-yellow-400 flex" *ngFor="let item of Lista" >
-            <div class="w-10/12 h-full flex mx-auto">
-            <td class="mx-10 font-sans font-semibold size-10 w-40">{{item.idEmpleado}}</td>
-            <td class="mx-10 font-sans font-semibold size-10 w-40">{{item.nombreCompleto}}</td>
-            <td class="mx-10 font-sans font-semibold size-10 w-40">{{item.correo}}</td>
-            <td class="mx-10 font-sans font-semibold size-10 w-40">{{item.sueldo}}</td>
-            <td class="mx-10 font-sans font-semibold size-10 w-30">{{item.fechaContrato}}</td>
-    
-            </div>
-            <div class="flex w-1/12">
-                <button class="px-3 py-1 mb-2 bg-orange-500">E</button>
-                <button class="px-3 py-1 mb-2 ml-5 bg-orange-500" (click)="Delete(item.idEmpleado)">D</button>
-            </div>
+        <div class="w-1/4">
+
+        </div>
+        <div class="w-1/4">
+
+        </div>
+        <div class="w-1/4">
+
         </div>
     </div>
-    <div *ngIf="!Lista">
-        <h1>No hay elementos</h1>
-    </div>
-    
-</div> -->
+    <!-- <div class="w-11/12 h-20 mx-auto pt-4 xl:block lg:block md:block tb:block sm:hidden">
+        <app-carousel [slides]="slidePrincipal" class="h-20"></app-carousel>
+    </div> -->
+    <app-seccion icon="'m15.75 10.5 4.72-4.72a.75.75 0 0 1 1.28.53v11.38a.75.75 0 0 1-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 0 0 2.25-2.25v-9a2.25 2.25 0 0 0-2.25-2.25h-9A2.25 2.25 0 0 0 2.25 7.5v9a2.25 2.25 0 0 0 2.25 2.25Z'"></app-seccion>
 
-<div class="container">
-    
 </div>
+  
