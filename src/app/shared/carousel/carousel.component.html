@@ -1,7 +1,7 @@
 <div class="carousel relative z-0 overflow-hidden w-full">
     <div class="carousel-inner flex transition-transform duration-700 ease-in-out" [style.transform]="'translateX(' + -currentSlide * 100 + '%)'">
       <div *ngFor="let slide of slides" class="carousel-item flex-shrink-0 w-full">
-        <img [src]="slide" class="w-full" alt="Slide image">
+        <img [src]="slide" class="w-full h-auto" alt="Slide image">
       </div>
     </div>
   
