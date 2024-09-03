@@ -11,9 +11,10 @@ import { Component } from '@angular/core';
 export class CarouselSmallComponent {
   currentSlide = 0;
   slides = [
-    'https://via.placeholder.com/800x200?text=Slide+1',
-    'https://via.placeholder.com/800x200?text=Slide+2',
-    'https://via.placeholder.com/800x200?text=Slide+3'
+    '/section 1/BANNER-SECCION-LEXAR-2000ES-min.jpg',
+    '/section 1/s_canon_eosr8.webp',
+    '/section 1/s_sony_zve1.webp',
+    '/section 1/Sandisk_Extreme_Pro_ES-min.jpg'
   ];
 
   prevSlide() {

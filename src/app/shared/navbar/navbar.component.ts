@@ -24,7 +24,7 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
   
-  logoSrc: string = '/Logo.png';
+  logoSrc: string = 'Logo.png';
   categoria:boolean=false;
   isMenuSmall:boolean=false;
   IsModal:boolean=false;
@@ -37,11 +37,11 @@ export class NavbarComponent {
   }
 
   onMouseOverLogo() {
-    this.logoSrc = '/Logo2.png';
+    this.logoSrc = 'Logo2.png';
   }
 
   onMouseOutLogo() {
-    this.logoSrc = '/Logo.png';
+    this.logoSrc = 'Logo.png';
   }
   onCategoria() {
     this.categoria=!this.categoria;
