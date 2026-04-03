@@ -6,11 +6,10 @@ import { opciones } from '../../interface/opcion.interface';
 import { producto } from '../../interface/producto.interface';
 
 @Component({
-  selector: 'app-home',
-  standalone: true,
-  imports: [CommonModule, CarouselComponent, SeccionComponent],
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+    selector: 'app-home',
+    imports: [CommonModule, CarouselComponent, SeccionComponent],
+    templateUrl: './home.component.html',
+    styleUrl: './home.component.css'
 })
 export class HomeComponent implements OnInit {
 

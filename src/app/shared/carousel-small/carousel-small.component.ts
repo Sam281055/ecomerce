@@ -2,11 +2,10 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-carousel-small',
-  standalone: true,
-  imports: [CommonModule],
-  templateUrl: './carousel-small.component.html',
-  styleUrl: './carousel-small.component.css'
+    selector: 'app-carousel-small',
+    imports: [CommonModule],
+    templateUrl: './carousel-small.component.html',
+    styleUrl: './carousel-small.component.css'
 })
 export class CarouselSmallComponent {
   currentSlide = 0;

@@ -3,11 +3,10 @@ import { Component } from '@angular/core';
 import { opciones } from '../../interface/opcion.interface';
 
 @Component({
-  selector: 'app-footer',
-  standalone: true,
-  imports: [CommonModule],
-  templateUrl: './footer.component.html',
-  styleUrl: './footer.component.css'
+    selector: 'app-footer',
+    imports: [CommonModule],
+    templateUrl: './footer.component.html',
+    styleUrl: './footer.component.css'
 })
 export class FooterComponent {
   Electrodomesticos: opciones[] = [

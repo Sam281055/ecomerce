@@ -7,12 +7,11 @@ import { producto } from '../../interface/producto.interface';
 import { CardProductVerticalComponent } from '../card-product-vertical/card-product-vertical.component';
 
 @Component({
-  selector: 'app-seccion',
-  standalone: true,
-  imports: [CarouselSmallComponent, CommonModule, 
-    CardProductComponent, CardProductComponent, CardProductVerticalComponent],
-  templateUrl: './seccion.component.html',
-  styleUrl: './seccion.component.css'
+    selector: 'app-seccion',
+    imports: [CarouselSmallComponent, CommonModule,
+        CardProductComponent, CardProductComponent, CardProductVerticalComponent],
+    templateUrl: './seccion.component.html',
+    styleUrl: './seccion.component.css'
 })
 export class SeccionComponent {
 @Input() icon:string="";

@@ -3,11 +3,10 @@ import { Component } from '@angular/core';
 import {FormControl, FormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
 
 @Component({
-  selector: 'app-create',
-  standalone: true,
-  imports: [CommonModule, FormsModule, ReactiveFormsModule],
-  templateUrl: './create.component.html',
-  styleUrl: './create.component.css'
+    selector: 'app-create',
+    imports: [CommonModule, FormsModule, ReactiveFormsModule],
+    templateUrl: './create.component.html',
+    styleUrl: './create.component.css'
 })
 export class CreateComponent {
 
