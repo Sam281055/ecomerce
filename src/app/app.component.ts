@@ -4,11 +4,11 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { animate, state, style, transition, trigger } from '@angular/animations';
-import { CommonModule } from '@angular/common';
+
 
 @Component({
     selector: 'app-root',
-    imports: [CommonModule, RouterOutlet, NavbarComponent, FooterComponent, ReactiveFormsModule, FormsModule],
+    imports: [RouterOutlet, NavbarComponent, FooterComponent, ReactiveFormsModule, FormsModule],
     templateUrl: './app.component.html',
     styleUrl: './app.component.css',
     animations: [

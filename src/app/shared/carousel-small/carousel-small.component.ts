@@ -1,9 +1,9 @@
-import { CommonModule } from '@angular/common';
+
 import { Component } from '@angular/core';
 
 @Component({
     selector: 'app-carousel-small',
-    imports: [CommonModule],
+    imports: [],
     templateUrl: './carousel-small.component.html',
     styleUrl: './carousel-small.component.css'
 })

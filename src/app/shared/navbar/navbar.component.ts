@@ -1,10 +1,10 @@
 import { animate, state, style, transition, trigger } from '@angular/animations';
-import { CommonModule } from '@angular/common';
+
 import { Component } from '@angular/core';
 
 @Component({
     selector: 'app-navbar',
-    imports: [CommonModule],
+    imports: [],
     templateUrl: './navbar.component.html',
     styleUrl: './navbar.component.css',
     animations: [

@@ -1,10 +1,10 @@
-import { CommonModule } from '@angular/common';
+
 import { Component } from '@angular/core';
 import { opciones } from '../../interface/opcion.interface';
 
 @Component({
     selector: 'app-footer',
-    imports: [CommonModule],
+    imports: [],
     templateUrl: './footer.component.html',
     styleUrl: './footer.component.css'
 })

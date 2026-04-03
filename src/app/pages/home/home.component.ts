@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { CommonModule } from '@angular/common';
+
 import { CarouselComponent } from '../../shared/carousel/carousel.component';
 import { SeccionComponent } from '../../shared/seccion/seccion.component';
 import { opciones } from '../../interface/opcion.interface';
@@ -7,7 +7,7 @@ import { producto } from '../../interface/producto.interface';
 
 @Component({
     selector: 'app-home',
-    imports: [CommonModule, CarouselComponent, SeccionComponent],
+    imports: [CarouselComponent, SeccionComponent],
     templateUrl: './home.component.html',
     styleUrl: './home.component.css'
 })
